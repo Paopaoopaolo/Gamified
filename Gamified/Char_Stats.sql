@@ -1,0 +1,9 @@
+CREATE TABLE Char_Stats
+(
+	Char_ID INT NOT NULL PRIMARY KEY,
+	Char_Name Char(255) NOT NULL,
+	Char_Lvl INT NOT NULL,
+	Char_HP INT NOT NULL,
+	Char_MP INT NOT NULL,
+	Char_SP INT NOT NULL, 
+)

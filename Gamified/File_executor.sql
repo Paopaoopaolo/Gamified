@@ -1,0 +1,4 @@
+USE GAMIFIED
+GO
+ALTER TABLE dbo.Spells_List ADD MP_Use INT
+GO
